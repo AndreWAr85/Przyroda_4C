@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
 body {
-  background-color: bisque;
+  background-color: rgb(242, 189, 238);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .wrapper {
@@ -50,13 +50,12 @@ img {
 }
 
 .foto-2 {
-  display: grid;
-  grid-gap: 5px;
-  grid-template: repeat(1,1fr) / repeat(4,1fr);
+  display: flex;
+justify-content: space-around;
 }
 
 .foto-2 img {
-  max-width: 100%;
+  max-width: 24.5%;
 }
 
 .foto-3 {
@@ -65,7 +64,7 @@ img {
 }
 
 .foto-3 img {
-  max-width: 49%;
+  max-width: 24.5%;
 }
 
 span {
@@ -81,4 +80,13 @@ li {
 
 .ul-botton {
   padding-bottom: 50px;
+}
+
+.wniosek {
+  color: rgb(115, 6, 108);
+  font-size: 26px;
+  padding: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
 }
